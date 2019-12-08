@@ -1,0 +1,23 @@
+name: ci
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: run test with deno version ${{ matrix.deno }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        deno: [0.26.0]
+    steps:
+      - name: clone repo
+        uses: actions/checkout@v1
+      - name: install deno
+        uses: denolib/setup-deno@master
+        with:
+          deno-version: ${{ matrix.deno }}
+      - name: run tests
+        run: |
+          deno --version
+          deno fmt --check .
+          deno test --allow-net .
