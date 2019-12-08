@@ -33,7 +33,7 @@ A quick look at the files and directories you'll see in a Deno project.
 1.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
 1.  **`CHANGELOG.md`**: This file contains a curated, chronologically ordered list of notable changes for each version of a project. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+    and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 1.  **`LICENSE`**: Deno is licensed under the MIT license.
 
@@ -41,7 +41,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 1.  **`mod_test.ts`**: Each module should come with its test as a sibling with the name `modulename_test.ts`. For example the module `foo.ts` should come with its sibling `foo_test.ts`.
 
-1. **`README.md`**: A text file containing useful reference information about your project.
+1.  **`README.md`**: A text file containing useful reference information about your project.
 
 ### License
 
