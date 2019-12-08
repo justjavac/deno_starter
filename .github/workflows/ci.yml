@@ -16,8 +16,7 @@ jobs:
         uses: denolib/setup-deno@master
         with:
           deno-version: ${{ matrix.deno }}
+      - name: run fmt
+        run: deno fmt --check .
       - name: run tests
-        run: |
-          deno --version
-          deno fmt --check .
-          deno test --allow-net .
+        run: deno test --allow-net .
