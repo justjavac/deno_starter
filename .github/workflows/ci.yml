@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        deno: [0.26.0]
+        deno: [0.40.0]
     steps:
       - name: clone repo
         uses: actions/checkout@v1
@@ -17,6 +17,6 @@ jobs:
         with:
           deno-version: ${{ matrix.deno }}
       - name: run fmt
-        run: deno fmt --check .
+        run: deno fmt --check
       - name: run tests
-        run: deno test --allow-net .
+        run: deno test

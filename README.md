@@ -3,7 +3,7 @@
 [![tag](https://img.shields.io/github/release/denomod/deno-starter)](https://github.com/denomod/deno-starter/releases)
 [![Build Status](https://github.com/denomod/deno-starter/workflows/ci/badge.svg?branch=master)](https://github.com/denomod/deno-starter/actions)
 [![license](https://img.shields.io/github/license/denomod/deno-starter)](https://github.com/denomod/deno-starter/blob/master/LICENSE)
-[![](https://img.shields.io/badge/deno-v0.26.0-green.svg)](https://github.com/denoland/deno)
+[![](https://img.shields.io/badge/deno-v0.40.0-green.svg)](https://github.com/denoland/deno)
 
 Quickly start a Deno module.
 
