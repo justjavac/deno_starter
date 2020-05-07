@@ -6,6 +6,9 @@ Deno.test("test starter function", (): void => {
   assertEquals(starter("abc"), "abc");
 });
 
-Deno.test(function myTestFunction(): void {
-  assertEquals(starter("foo bar"), "foo bar");
+Deno.test({
+  name: "test starter function",
+  fn(): void {
+    assertEquals(starter("foo bar"), "foo bar");
+  },
 });
