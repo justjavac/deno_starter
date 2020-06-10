@@ -3,7 +3,7 @@
 [![tag](https://img.shields.io/github/release/denomod/deno_starter)](https://github.com/denomod/deno_starter/releases)
 [![Build Status](https://github.com/denomod/deno_starter/workflows/ci/badge.svg?branch=master)](https://github.com/denomod/deno_starter/actions)
 [![license](https://img.shields.io/github/license/denomod/deno_starter)](https://github.com/denomod/deno_starter/blob/master/LICENSE)
-[![](https://img.shields.io/badge/deno-v1.0.3-green.svg)](https://github.com/denoland/deno)
+[![](https://img.shields.io/badge/deno-v1.0.5-green.svg)](https://github.com/denoland/deno)
 
 Quickly start a Deno module.
 
@@ -19,6 +19,7 @@ A quick look at the files and directories you'll see in a Deno project.
     ├─ .vscode
     │   ├─ extensions.json
     │   └─ settings.json
+    ├─ .gitattributes
     ├─ .gitignore
     ├─ CHANGELOG.md
     ├─ LICENSE
@@ -45,4 +46,4 @@ A quick look at the files and directories you'll see in a Deno project.
 
 ### License
 
-[deno-starter](https://github.com/denomod/deno-starter) is released under the MIT License. See the bundled [LICENSE](./LICENSE) file for details.
+[deno_starter](https://github.com/denomod/deno_starter) is released under the MIT License. See the bundled [LICENSE](./LICENSE) file for details.
