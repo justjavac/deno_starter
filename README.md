@@ -1,8 +1,8 @@
 # deno_starter
 
-[![tag](https://img.shields.io/github/release/denomod/deno_starter)](https://github.com/denomod/deno_starter/releases)
-[![Build Status](https://github.com/denomod/deno_starter/workflows/ci/badge.svg?branch=master)](https://github.com/denomod/deno_starter/actions)
-[![license](https://img.shields.io/github/license/denomod/deno_starter)](https://github.com/denomod/deno_starter/blob/master/LICENSE)
+[![tag](https://img.shields.io/github/release/justjavac/deno_starter)](https://github.com/justjavac/deno_starter/releases)
+[![Build Status](https://github.com/justjavac/deno_starter/workflows/ci/badge.svg?branch=master)](https://github.com/justjavac/deno_starter/actions)
+[![license](https://img.shields.io/github/license/justjavac/deno_starter)](https://github.com/justjavac/deno_starter/blob/master/LICENSE)
 [![](https://img.shields.io/badge/deno-v1.3-green.svg)](https://github.com/denoland/deno)
 
 Quickly start a Deno module.
@@ -46,4 +46,4 @@ A quick look at the files and directories you'll see in a Deno project.
 
 ### License
 
-[deno_starter](https://github.com/denomod/deno_starter) is released under the MIT License. See the bundled [LICENSE](./LICENSE) file for details.
+[deno_starter](https://github.com/justjavac/deno_starter) is released under the MIT License. See the bundled [LICENSE](./LICENSE) file for details.
