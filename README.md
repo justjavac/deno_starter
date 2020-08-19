@@ -44,6 +44,6 @@ A quick look at the files and directories you'll see in a Deno project.
 
 1.  **`README.md`**: A text file containing useful reference information about your project.
 
-### License
+## License
 
 [deno_starter](https://github.com/justjavac/deno_starter) is released under the MIT License. See the bundled [LICENSE](./LICENSE) file for details.
