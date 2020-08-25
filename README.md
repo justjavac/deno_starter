@@ -15,10 +15,6 @@ A quick look at the files and directories you'll see in a Deno project.
     ├─ .github
     │   └─ workflows
     │       └─ ci.yml
-    ├─ .vscode
-    ├─ .vscode
-    │   ├─ extensions.json
-    │   └─ settings.json
     ├─ .gitattributes
     ├─ .gitignore
     ├─ CHANGELOG.md
@@ -28,8 +24,6 @@ A quick look at the files and directories you'll see in a Deno project.
     └─ README.md
 
 1.  **`.github\workflows\ci.yml`**: GitHub Actions.
-
-1.  **`.vscode\extensions.json`**: Workspace recommended extensions for Deno Developers.
 
 1.  **`.gitattributes`**: This file is a simple text file that gives `attributes` to pathnames.
 
