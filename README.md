@@ -31,6 +31,8 @@ A quick look at the files and directories you'll see in a Deno project.
 
 1.  **`.vscode\extensions.json`**: Workspace recommended extensions for Deno Developers.
 
+1.  **`.gitattributes`**: This file is a simple text file that gives `attributes` to pathnames.
+
 1.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
 1.  **`CHANGELOG.md`**: This file contains a curated, chronologically ordered list of notable changes for each version of a project. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
