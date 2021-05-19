@@ -13,13 +13,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Setup Deno
-        uses: denoland/setup-deno@main
+        uses: denoland/setup-deno@v1.0.0
+        with:
+          deno-version: v1.x
 
       - name: Format
         run: deno fmt --check
 
       - name: Lint
-        run: deno lint --unstable
+        run: deno lint
 
       - name: Tests
         run: deno test --unstable
