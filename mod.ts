@@ -6,7 +6,7 @@
  * generated documentation is more rich text.
  * Therefore JSDoc should generally follow markdown markup to enrich the text.
  *
- * follow https://deno.land/std/style_guide.md
+ * follow https://deno.land/manual/contributing/style_guide
  *
  * @param foo - Description of non obvious parameter
  */
